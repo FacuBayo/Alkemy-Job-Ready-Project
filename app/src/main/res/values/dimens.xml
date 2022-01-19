@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Sign Up-->
+    <dimen name="sign_up_toolbar_title_text_size">18sp</dimen>
+    <dimen name="sign_up_clickable_text_view_padding">5dp</dimen>
+    <dimen name="sign_up_text_view_textSize">16sp</dimen>
+    <dimen name="sign_up_button_textSize">18sp</dimen>
+    <dimen name="sign_up_btn_padding">8dp</dimen>
+    <dimen name="sign_up_txt_terms_condition_marginStart">10dp</dimen>
+    <dimen name="sign_up_txt_terms_and_condition_textSize">14sp</dimen>
+    <dimen name="sign_up_et_textSize">16sp</dimen>
+    <dimen name="sign_up_et_padding">16dp</dimen>
+
+    <!-- Contact us details-->
+
+    <dimen name="contact_us_imageview_padding_top">25dp</dimen>
+    <dimen name="contact_us_imageview_layout_height">200dp</dimen>
+    <dimen name="contact_us_imageview_layout_width">200dp</dimen>
+
+    <dimen name="contact_us_textview_padding_left">20dp</dimen>
+
+</resources>

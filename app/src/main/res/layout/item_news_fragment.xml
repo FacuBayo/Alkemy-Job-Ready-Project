@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/tv_news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textAppearance="@style/Header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Tarde Deportiva" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_news"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_news_title"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize16Percent" />
+
+    <TextView
+        android:id="@+id/tv_news_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:minHeight="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iv_news"
+        app:layout_constraintTop_toTopOf="@+id/iv_news"
+        tools:text="this a  description" />
+
+    <TextView
+        android:id="@+id/tv_news_created_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_news_description"
+        tools:text="Publicado:10/01/2022" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintTop_toBottomOf="@+id/tv_news_created_at" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

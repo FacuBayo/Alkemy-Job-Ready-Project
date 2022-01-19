@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "137373121367",
+    "project_id": "alkemy-grupo-61",
+    "storage_bucket": "alkemy-grupo-61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137373121367:android:a7e8c9430fecce0d6b1c12",
+        "android_client_info": {
+          "package_name": "com.alkemy.ongsomosmas.develop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137373121367-43pjatapdeg1nacvmc647u8bto1o2hoh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqYIXqWWEBgL_S1I4BatDNZd7vk9X7IHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137373121367-43pjatapdeg1nacvmc647u8bto1o2hoh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

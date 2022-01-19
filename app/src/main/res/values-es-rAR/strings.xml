@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ONGSomosMas</string>
+
+    <!-- Facebook -->
+    <string name="facebook_auth_error">La autenticación ha fallado.</string>
+
+    <!-- Menu -->
+    <string name="menu_item_contact_us">Contacto</string>
+    <string name="menu_item_home">Inicio</string>
+    <string name="menu_item_about_us">Nosotros</string>
+    <string name="menu_item_activities">Actividades</string>
+    <string name="menu_item_news">Novedades</string>
+    <string name="menu_item_testimonials">Testimonios</string>
+    <string name="menu_item_contribute">Contribuye</string>
+
+    <!-- Error -->
+    <string name="error_tv_message">Ha ocurrido un error obteniendo la información.</string>
+    <string name="error_bt_retry">Reintentar</string>
+    <string name="error_dialog">Cerrar</string>
+    <string name="error_general_tv_message">Ha ocurrido un error general. Por favor, reintenta más tarde.</string>
+
+    <!-- Contactate con nosotros -->
+    <string name="contact_us_tv_title">Contactate con nosotros</string>
+    <string name="contact_us_et_name">Nombre</string>
+    <string name="contact_us_et_surname">Apellido</string>
+    <string name="contact_us_bt_send">ENVIAR</string>
+    <string name="contact_us_et_query">Escribe tu consulta…</string>
+    <string name="contact_us_et_email">Email</string>
+    <string name="contact_us_et_email_error">Ingrese un email válido</string>
+    <string name="contact_us_toast_success">Mensaje enviado</string>
+    <string name="contact_us_dialog_error_title">Lo sentimos</string>
+    <string name="contact_us_dialog_error_description">Ha ocurrido un error. Intente nuevamente más tarde.</string>
+    <string name="contact_us_invalid_email">Ingrese un email válido.</string>
+
+    <!-- Home -->
+    <string name="home_tv_title">Bienvenid@</string>
+    <string name="home_tv_title_news">Últimas novedades</string>
+    <string name="home_tv_title_testimonial">Testimonios</string>
+    <string name="home_error">Ha ocurrido un error. Intente nuevamente más tarde.</string>
+
+    <!-- SignUp -->
+    <string name="sign_up_name">Nombre</string>
+    <string name="sign_up_last_name">Apellido</string>
+    <string name="sign_up_email">Correo electrónico</string>
+    <string name="sign_up_password">Contraseña</string>
+    <string name="sign_up_confirm_password">Repetir contraseña</string>
+    <string name="sign_up_agree_to_the_terms_and_condition">Acepto términos y condiciones</string>
+    <string name="sign_up_upper_case">REGISTRAR</string>
+    <string name="sign_up_lower_case">Registro</string>
+    <string name="sign_up_already_have_an_account">¿Ya tienes una cuenta?</string>
+    <string name="sign_up_login">Ingresar</string>
+    <string name="email_text">Ingresa un correo válido</string>
+    <string name="password_text">La contraseña debe tener al menos 8 caracteres, 1 mayúscula y 1 número</string>
+    <string name="same_password_text">Las contraseñas no son similares</string>
+    <string name="name_text">El nombre debe tener al menos 3 caracteres y sin espacios</string>
+    <string name="User_was_succesfully_register">Usuario registrado exitosamente</string>
+    <string name="User_was_not_succesfully_register">El usuario no pudo ser registrado</string>
+    <string name="Ok_option">OK</string>
+
+    <!-- Login -->
+    <string name="log_in_toast_success">Logeado exitosamente</string>
+    <string name="log_in_toast_error">Falló el logueo</string>
+
+    <!-- About Us -->
+    <string name="about_us_title">Nosotros</string>
+    <string name="about_us_members">Miembros</string>
+    <string name="about_us_description">Somos una asociación civil sin fines de lucro que se creó en 1997 con la intención de dar alimento a las familias del barrio La Cava. Hoy es un centro comunitario que acompaña a más de 700 personas a través de las áreas de: Educación, deportes, primera infancia, salud, alimentación y trabajo social.</string>
+    <string name="about_us_error">Ocurrio un error al obtener los miembros.</string>>
+
+
+    <!-- About us details -->
+    <string name="about_us_details_title">Detalle</string>
+    <string name="about_us_details_name">Nombre:</string>
+    <string name="about_us_details_job">Puesto:</string>
+    <string name="about_us_details_admission_date">Fecha de ingreso:</string>
+    <string name="about_us_details_social_networks">Redes:</string>
+
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+    <string name="activities_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="news_error_fragment">Ha ocurrido un error obteniendo la información</string>
+
+    <!-- Testimonial -->
+    <string name="testimonial_error_fragment">Ha ocurrido un error obteniendo la información</string>
+
+    <!-- Activities fragment -->
+    <string name="fragment_activities_title">Actividades</string>
+    <string name="activites_published">Publicado:</string>
+    <string name="news_published">Publicado: </string>
+</resources>

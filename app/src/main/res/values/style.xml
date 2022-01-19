@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize16Percent" parent="">
+        <item name="cornerSize">16%</item>
+    </style>
+
+    <style name="Detail">
+        <item name="android:font">@font/mulish</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="rv_subtitle">
+        <item name="android:font">@font/mulish</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/subtitle_color</item>
+    </style>
+
+    <style name="Header">
+        <item name="android:font">@font/mulish</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Body">
+        <item name="android:font">@font/mulish</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="Subtitle">
+        <item name="android:font">@font/mulish</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/subtitle_color</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Subdetail" parent="">
+        <item name="android:font">@font/mulish</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:font">@font/mulish</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/button_color</item>
+    </style>
+
+
+</resources>

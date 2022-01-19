@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@+id/nav_home_fragment">
+
+    <fragment
+        android:id="@+id/nav_home_fragment"
+        android:name="com.alkemy.ongsomosmas.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_contact_us"
+        android:name="com.alkemy.ongsomosmas.ui.contactus.ContactFragment"
+        android:label="Contacto"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.alkemy.ongsomosmas.ui.aboutus.AboutUsFragment"
+        android:label="@string/about_us_title"
+        tools:layout="@layout/fragment_about_us" >
+        <action
+            android:id="@+id/action_aboutUsFragment_to_aboutUsDetailsFragment"
+            app:destination="@id/aboutUsDetailsFragment"
+            app:enterAnim="@anim/from_rigth"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/activitiesFragment"
+        android:name="com.alkemy.ongsomosmas.ui.activities.ActivitiesFragment"
+        android:label="@string/fragment_activities_title"
+        tools:layout="@layout/fragment_activities"
+        />
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="com.alkemy.ongsomosmas.ui.home.news.NewsFragment"
+        android:label="@string/home_tv_title_news"
+        tools:layout="@layout/fragment_news"
+        />
+    <fragment
+        android:id="@+id/aboutUsDetailsFragment"
+        android:name="com.alkemy.ongsomosmas.ui.aboutus.AboutUsDetailsFragment"
+        android:label="@string/about_us_details_title"
+        tools:layout="@layout/fragment_about_us_details" >
+        <argument
+            android:name="imgUrl"
+            app:argType="string"
+            android:defaultValue="NO_IMAGE" />
+        <argument
+            android:name="name"
+            app:argType="string"
+            android:defaultValue="NO_NAME" />
+        <argument
+            android:name="job"
+            app:argType="string"
+            android:defaultValue="NO_JOB" />
+        <argument
+            android:name="admissionDate"
+            app:argType="string"
+            android:defaultValue="NO_DATE" />
+        <argument
+            android:name="facebookUrl"
+            app:argType="string"
+            android:defaultValue="NO_URL" />
+        <argument
+            android:name="linkedinUrl"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_testimonials"
+        android:name="com.alkemy.ongsomosmas.ui.testimonials.TestimonialsFragment"
+        android:label="@string/home_tv_title_testimonial"
+        tools:layout="@layout/fragment_testimonials" />
+</navigation>
