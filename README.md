@@ -2,7 +2,7 @@
  Trabajamos en conjunto, en un equipo de 5 desarrolladores. Utilizamos Scrum como metodología de trabajo, Jira para la administración de tareas y Github como repositorio remoto.
  El desarrollo se hizo con Kotlin, utilizando las últimas librerias, buenas prácticas y patrón MVVM.
 
-# Librerías y prácticas:
+# Librerías y prácticas utilizadas:
 
 * Retrofit
 * Dagger Hilt
